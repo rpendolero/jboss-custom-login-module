@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>es.bde.aps.jbs</groupId>
+  <artifactId>login-module</artifactId>
+  <version>1.0</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.picketbox</groupId>
+  		<artifactId>picketbox-bare</artifactId>
+  		<version>5.0.2.Final-redhat-1</version>
+  		<scope>provided</scope>
+  	</dependency>
+  	<dependency>
+  		<groupId>log4j</groupId>
+  		<artifactId>log4j</artifactId>
+  		<version>1.2.17.redhat-3</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.picketbox</groupId>
+  		<artifactId>common-spi</artifactId>
+  		<version>5.0.2.Final-redhat-1</version>
+  		<scope>provided</scope>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.jboss.logging</groupId>
+  		<artifactId>jboss-logging</artifactId>
+  		<version>3.3.1.Final-redhat-1</version>
+  		<scope>provided</scope>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.picketbox</groupId>
+  		<artifactId>jbosssx-bare</artifactId>
+  		<version>5.0.2.Final-redhat-1</version>
+  		<scope>provided</scope>
+  	</dependency>
+  </dependencies>
+</project>
